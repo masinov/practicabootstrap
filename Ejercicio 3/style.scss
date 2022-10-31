@@ -1,0 +1,39 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 250px,
+  md: 500px,
+  lg: 750px,
+  xl: 1000px,
+  xxl: 1250px
+);
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container-fluid{
+    height: 100%;
+    width: 100%;
+}
+
+@include media-breakpoint-between(xs,lg){
+    .container-fluid{
+        background-color: violet;
+    }
+}
+@include media-breakpoint-between(lg,xxl){
+    .container-fluid{
+        background-color: green;
+    }
+}
+@include media-breakpoint-only(xxl){
+    .container-fluid{
+        background-color: green;
+    }
+}

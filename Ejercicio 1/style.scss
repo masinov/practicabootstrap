@@ -1,0 +1,46 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container-fluid{
+    height: 100%;
+    width: 100%;
+}
+
+@include media-breakpoint-only(xs){
+    .container-fluid{
+        background-color: red;
+    }
+}
+@include media-breakpoint-only(sm){
+    .container-fluid{
+        background-color: orangered;
+    }
+}
+@include media-breakpoint-only(md){
+    .container-fluid{
+        background-color: greenyellow;
+    }
+}
+@include media-breakpoint-only(lg){
+    .container-fluid{
+        background-color: green;
+    }
+}
+@include media-breakpoint-only(xl){
+    .container-fluid{
+        background-color: magenta;
+    }
+}
+
+@include media-breakpoint-only(xxl){
+    .container-fluid{
+        background-color: grey;
+    }
+}
