@@ -10940,11 +10940,6 @@ body {
   width: 100vw;
 }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  height: 100%;
-  width: 100%;
-}
-
 @media (max-width: 749.98px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
     background-color: violet;
