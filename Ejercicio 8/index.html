@@ -9,22 +9,35 @@
 </head>
 <body>
     <div class="container-fluid text-center">
+        <h2>Apartado A</h2>
         <div class="row">
-            <div class="col bg-primary border border-white">col 1</div>
-            <div class="col bg-primary border border-white">col 1</div>
-            <div class="col bg-primary border border-white">col 1</div>
-            <div class="col bg-primary border border-white">col 1</div>
-            <div class="col bg-primary border border-white">col 1</div>
+            <div class="col bg-primary border border-white">.col</div>
+            <div class="col-auto bg-primary border border-white">Columna de ancho variable (.col-auto)</div>
+            <div class="col bg-primary border border-white">.col 1</div>
         </div>
         <div class="row">
-            <div class="col-md-4 bg-secondary border border-white">col 2</div>
-            <div class="col-md-4 bg-secondary border border-white">col 2</div>
-            <div class="col-md-4 bg-secondary border border-white">col 2</div>
+            <div class="col bg-secondary border border-white">col</div>
+            <div class="col-auto bg-secondary border border-white">Otra columna de ancho variable (.col-auto)</div>
         </div>
         <div class="row">
-            <div class="col-xl-6 bg-success border border-white">col 3</div>
-            <div class="col-xl-6 bg-success border border-white">col 3</div>
+            <div class="col-auto bg-success border border-white">Otra columna de ancho variable (.col-auto)</div>
+            <div class="col bg-success border border-white">.col</div>
+            <div class="col bg-success border border-white">.col</div>
+            <div class="col bg-success border border-white">.col</div>
+            <div class="col bg-success border border-white">.col</div>
+            <div class="col bg-success border border-white">.col</div>
         </div>
+        <br>
+        <br>
+        <h2>Apartado B</h1>
+        <div class="row">
+            <div class="col container-fluid"></div>
+            <div class="col-12 col-md-3 col-lg-4 bg-success border border-white">.col</div>
+            <div class="col-12 col-md-auto bg-success border border-white">Columna de ancho variable</div>
+            <div class="col-12 col-md-3 col-lg-4 bg-success border border-white">.col</div>
+            <div class="col container-fluid"></div>
+        </div>
+
     </div>
 
     <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
